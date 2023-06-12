@@ -194,6 +194,7 @@ const props = defineProps({
     type: Array<EmptyObjectType>,
     default: () => [],
   },
+
   // 配置项
   config: {
     type: Object,
@@ -326,6 +327,7 @@ const onRefreshTable = () => {
   emit("pageChange", state.page);
 };
 // 设置
+
 const onSetTable = () => {
   nextTick(() => {
     const sortable = Sortable.create(toolSetRef.value, {

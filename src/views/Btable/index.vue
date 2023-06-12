@@ -35,13 +35,6 @@ const state = reactive<TableDemoState>({
     // 表头内容（必传，注意格式）
     header: [
       {
-        key: "name",
-        colWidth: "",
-        title: "应检尽检核酸采样点名称",
-        type: "text",
-        isCheck: true,
-      },
-      {
         key: "address",
         colWidth: "",
         title: "详细地址",
@@ -82,7 +75,7 @@ const state = reactive<TableDemoState>({
     // 配置项（必传）
     config: {
       total: 0, // 列表总数
-      loading: true, // loading 加载
+      loading: false, // loading 加载
       isBorder: true, // 是否显示表格边框
       isSerialNo: true, // 是否显示表格序号
       isSelection: true, // 是否显示表格多选

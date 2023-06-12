@@ -136,7 +136,7 @@ export const useThemeConfig = defineStore('themeConfig', {
 			 * 全局网站标题 / 副标题
 			 */
 			// 网站主标题（菜单导航、浏览器当前网页标题）
-			globalTitle: 'vue-next-admin',
+			globalTitle: 'Vue3 组件封装by xudji',
 			// 网站副标题（登录页顶部文字）
 			globalViceTitle: 'vueNextAdmin',
 			// 网站副标题（登录页顶部文字）
